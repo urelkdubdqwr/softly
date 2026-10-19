@@ -1,35 +1,50 @@
-# Softly 🛏️
+<!-- Softly — a polite collections desk for freelancers -->
 
-**Get paid without the awkward part.**
+**[urelkdubdqwr](https://github.com/urelkdubdqwr)** · [website](https://studiopinggirkasur.xyz/)
 
-A polite collections desk for solo freelancers and small service businesses — schedules the follow-up rhythm automatically and writes the nudge in your tone, so chasing an invoice stops being a personality problem.
+<img src="assets/header.svg" alt="Softly — A polite collections desk for freelancers, automated soft, warm, firm follow-up rhythm" width="100%">
+
+**A polite collections desk for freelancers — automated soft, warm, firm follow-up rhythm.**
+
+## What it is
+
+Get paid without the awkward part. Softly schedules the follow-up rhythm for your unpaid invoices automatically — reminder 2 days before due, a nudge on the due date, then day +3, +7, +14, and a firm final notice — and writes the message for you in three tones: *Soft* ("just confirming this came through"), *Warm* (friendly but specific) and *Firm* (clear, final notice). Solo operators lose real cash chasing invoices because asking for money feels awkward; the dashboard tracks total outstanding, aging buckets (Not due / 1–30 / 31–60 / 61+ days) and a **Nudge today** queue so you never have to decide *when* or *how* to ask.
 
 - **LIVE:** https://softly-polite-collec-dufo.bolt.host
 - **Built with:** [Bolt](https://bolt.new) — 100% during Bolt Builders Week
 - **Demo:** [`softly-demo.mp4`](./softly-demo.mp4)
 
-## The problem
+## How it works
 
-Solo operators lose real cash chasing unpaid invoices because asking for money feels awkward. They delay the follow-up, the invoice ages, the relationship gets tense. It is consistently one of the loudest pain points in r/smallbusiness, r/Freelancers and r/Entrepreneur.
+![Softly follow-up rhythm — invoice recorded, nudge soft, eskalasi warm, final firm, paid](assets/ecosystem.png)
 
-## The product
+- An invoice goes in with its amount, client and due date — from that moment the rhythm is scheduled for you.
+- **2 days before due:** a soft reminder ("just confirming this came through").
+- **Due date:** the nudge lands, still soft.
+- **Day +3 and +7:** tone shifts to Warm — friendly, but specific about the invoice.
+- **Day +14:** Firm — a clear, final notice. Then the invoice gets marked paid and closed.
+- The dashboard watches total outstanding and aging buckets (Not due / 1–30 / 31–60 / 61+ days), and the **Nudge today** queue lines up who to chase and in which tone.
 
-- **Follow-up rhythm, automated** — reminder 2 days before due, nudge on the due date, then day +3, +7, +14, and a firm final notice.
-- **Three tones** — *Soft* ("just confirming this came through"), *Warm* (friendly but specific), *Firm* (clear, final notice). The message writes itself.
-- **Dashboard** — total outstanding, aging buckets (Not due / 1–30 / 31–60 / 61+ days), and a **Nudge today** queue so you never have to decide *when* or *how* to ask.
+## Quickstart
 
-## In this repo
+No local build here — the app is live on Bolt's free tier:
+
+1. Open [softly-polite-collec-dufo.bolt.host](https://softly-polite-collec-dufo.bolt.host).
+2. Log an invoice (amount, client, due date).
+3. Hit the **Nudge today** queue to see the follow-up rhythm and the Soft/Warm/Firm drafts.
+4. Watch the desk track outstanding totals and aging buckets on its own.
+
+Known non-blocker: the `Reset demo data` button freezes the currently live build; the fix landed in the Bolt project (Version 2) but the free-tier rebuild stalls. Demo resets are cosmetic — the follow-up engine is unaffected. Clip of the desk in action: [`softly-demo.mp4`](./softly-demo.mp4).
+
+## What's inside
 
 | File | What |
 |---|---|
-| `SUBMISSION_PACK.md` | Builders Week submission (business description, links, status) |
+| `SUBMISSION_PACK.md` | Bolt Builders Week submission pack (business description, links, status) |
 | `softly-demo.mp4` | Demo video (captioned) |
-
-## Known non-blocker
-
-The `Reset demo data` button freezes the older live build; the fix landed in the Bolt project (Version 2) but the free-tier rebuild stalls. Demo data resets are cosmetic — the follow-up engine is unaffected.
-
----
+| `assets/header.svg` | Banner |
+| `assets/ecosystem.png` | Follow-up rhythm diagram (source: `assets/diagram.mmd`) |
+| `LICENSE` | MIT |
 
 ## License
 
@@ -37,4 +52,4 @@ MIT — see [`LICENSE`](./LICENSE).
 
 ---
 
-**STUDIO PINGGIR KASUR** · [studiopinggirkasur.xyz](https://studiopinggirkasur.xyz) — onchain · web3 · skate · AI · sleep
+*Worked from the edge of the bed. → [studiopinggirkasur.xyz](https://studiopinggirkasur.xyz/)*

@@ -1,0 +1,10 @@
+flowchart TD
+    A['Invoice recorded<br/>amount · due date · client'] --> B['Reminder 2 days before due<br/>tone: Soft']
+    B --> C['Nudge on the due date<br/>tone: Soft']
+    C --> D['Day +3 · +7<br/>tone: Warm, friendly but specific']
+    D --> E['Day +14<br/>tone: Firm, final notice']
+    E --> F['Paid — invoice closed']
+    C --> G['Dashboard<br/>total outstanding · aging buckets Not due / 1-30 / 31-60 / 61+']
+    D --> G
+    G --> H['Nudge today queue<br/>who to chase, in which tone']
+    H --> B
