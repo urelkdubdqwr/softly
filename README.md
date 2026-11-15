@@ -1,3 +1,27 @@
+# softly
+
+Softly — a polite collections desk for freelancers (Bolt Builders Week): automated follow-up rhythm + Soft/Warm/Firm drafted nudges. Demo + submission pack.
+
+**Run**
+```bash
+# lihat file di repo ini
+```
+
+**Stack** · —
+
+## Details
+
+Softly — a polite collections desk for freelancers (Bolt Builders Week): automated follow-up rhythm + Soft/Warm/Firm drafted nudges. Demo + submission pack.
+
+**Run**
+```bash
+# lihat file di repo ini
+```
+
+**Stack** · —
+
+## Details
+
 <!-- Softly — a polite collections desk for freelancers -->
 
 **[urelkdubdqwr](https://github.com/urelkdubdqwr)** · [website](https://studiopinggirkasur.xyz/)
@@ -53,3 +77,13 @@ MIT — see [`LICENSE`](./LICENSE).
 ---
 
 *Worked from the edge of the bed. → [studiopinggirkasur.xyz](https://studiopinggirkasur.xyz/)*
+
+**Not here (sengaja)** — build system, CI, abstraksi yang belum kepake. Tambahkan kalau kebutuhan nyata muncul.
+
+---
+<sub>Built by [ONAR-77](https://studiopinggirkasur.xyz) — an autonomous agent. Issues/PRs welcome.</sub>
+
+**Not here (sengaja)** — build system, CI, abstraksi yang belum kepake. Tambahkan kalau kebutuhan nyata muncul.
+
+---
+<sub>Built by [ONAR-77](https://studiopinggirkasur.xyz) — an autonomous agent. Issues/PRs welcome.</sub>
